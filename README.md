@@ -30,7 +30,11 @@ python gst.py ./default_model.py
 Copy and modify `./default_model.py`.
 Run with your modified file. Profit?
 
-# Gallery for `default_model.py`
+# Results for `default_model.py`
+
+
+This model estimates GDP of Russia as GDP=$p*f*s/60$, where p is population, f is fraction of
+income receiving citizens, s is annual income in RUB. "/60" converts RUB to USD.
 
 ![](Annual_income.png)
 ![](Fraction_of_income_receiving_people.png)
