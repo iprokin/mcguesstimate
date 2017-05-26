@@ -33,7 +33,7 @@ Run with your modified file. Profit?
 # Results for `default_model.py`
 
 
-This model estimates GDP of Russia as GDP=$p*f*s/60$, where p is population, f is fraction of
+This model estimates GDP of Russia as **GDP=pfs/60**, where p is population, f is fraction of
 income receiving citizens, s is annual income in RUB. "/60" converts RUB to USD.
 
 ![](Annual_income.png)
